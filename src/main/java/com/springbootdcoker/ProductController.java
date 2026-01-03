@@ -13,7 +13,7 @@ public class ProductController {
 	@GetMapping("/status")
 	public ResponseEntity<String> getStatus() {
 
-		return new ResponseEntity("Deploy in Azure through git success", HttpStatus.OK);
+		return new ResponseEntity("Deploy in Azure through git success-version2", HttpStatus.OK);
 
 	}
 
